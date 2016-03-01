@@ -66,7 +66,7 @@
         prevButton: '.swiper-button-prev',
         slidesPerView: 1,
         paginationClickable: true,
-        loop: true
+        //loop: true
     });
 </script>
 
