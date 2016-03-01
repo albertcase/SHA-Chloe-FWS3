@@ -35,5 +35,6 @@
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/wechat.js"></script>
+
 </body>
 </html>
