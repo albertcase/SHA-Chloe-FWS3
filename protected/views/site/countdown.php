@@ -27,22 +27,16 @@
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/kv-1.jpg" width="100%" />
-            </div>
+
             <div class="swiper-slide">
                 <a href="javascript:;" class="playBtn"></a>
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster.jpg" width="100%" />
             </div>
+
             <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/kv-1.jpg" width="100%" />
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/slider_3_1.jpg" width="100%" />
             </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/kv-1.jpg" width="100%" />
-            </div>
-            <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/kv-1.jpg" width="100%" />
-            </div>
+
         </div>
 
     </div>
@@ -84,7 +78,7 @@
     ;(function($){
         $(function(){
 
-            var vidArr = ["n01549ttjri"];
+            var vidArr = ["j0186t7y55y"];
             var vPic = ["../fws3/img/poster.jpg"]
 
     		var player;
@@ -135,24 +129,24 @@
 
 
 
-    var myTouch = util.toucher(document.getElementById('touchBox')),cDay;
-    myTouch.on('swipeUp',function(){
-        cDay = $(".slogan em").html();
-
-        if(cDay == 3 || cDay == 2){
-            $(".slogan em").html(parseInt(cDay)-1);
-        }
-
-    })
-
-    myTouch.on('swipeDown',function(){
-        cDay = $(".slogan em").html();
-
-        if(cDay == 2 || cDay == 1){
-            $(".slogan em").html(parseInt(cDay)+1);
-        }
-
-    })
+//    var myTouch = util.toucher(document.getElementById('touchBox')),cDay;
+//    myTouch.on('swipeUp',function(){
+//        cDay = $(".slogan em").html();
+//
+//        if(cDay == 3 || cDay == 2){
+//            $(".slogan em").html(parseInt(cDay)-1);
+//        }
+//
+//    })
+//
+//    myTouch.on('swipeDown',function(){
+//        cDay = $(".slogan em").html();
+//
+//        if(cDay == 2 || cDay == 1){
+//            $(".slogan em").html(parseInt(cDay)+1);
+//        }
+//
+//    })
 
     })(jQuery)
 
