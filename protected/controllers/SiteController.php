@@ -8,12 +8,28 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		if(!isset($_SESSION['openid'])){
-			Header('Location: /weixin/oauth?callback=/');
-			Yii::app()->end();
-		}
+//		if(!isset($_SESSION['openid'])){
+//			Header('Location: /weixin/oauth?callback=/');
+//			Yii::app()->end();
+//		}
 		$this->render('index');
 	}
+
+	public function actionCountdown(){
+	    $this->layout = '//layouts/fws3_main';
+        $this->render('countdown');
+    }
+
+    public function actionMessage(){
+    	    $this->layout = '//layouts/fws3_main';
+            $this->render('message');
+    }
+
+    public function actionTest()
+    	{
+    	    $this->layout = '//layouts/fws3_main';
+    		$this->render('test');
+    	}
 
 	public function actionProlist()
 	{
