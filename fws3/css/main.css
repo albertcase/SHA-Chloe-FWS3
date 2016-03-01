@@ -244,7 +244,7 @@ a,img { -webkit-touch-callout: none;}
 }
 
 #time{
-	font-family: "微软雅黑","Microsoft Yahei";
+	font-family: "微软雅黑","Microsoft Yahei","STHeiti";
 	font-size: 7.0rem;
 	font-weight: normal;
 }
@@ -343,9 +343,12 @@ a,img { -webkit-touch-callout: none;}
 	background-size:100% auto;
 }
 
-
-
-
+.homeFooter{
+	width:100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
 
 
 

@@ -28,6 +28,10 @@
         </div>
         <div class="message_line"></div>
     </div>
+
+    <div class="homeFooter">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/footer.png" width="100%" />
+    </div>
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/bg.jpg" width="100%" />
 </div>
 
