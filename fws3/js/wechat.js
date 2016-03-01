@@ -1,7 +1,7 @@
 var shareData = {
     "title": "Chloe2016秋冬巴黎时装秀 即将启幕",
     "link": window.location.href,
-    "imgUrl": window.location.host + "/fws3/img/share.jpg",
+    "imgUrl": "http://chloefw2016.samesamechina.com/fws3/img/share.jpg",
     "desc": ""
 }
 
