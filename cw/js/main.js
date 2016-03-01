@@ -64,9 +64,9 @@ window.location.hash = '';
 		$(".menu").show();
 
 			TweenMax.staggerTo(".menu li", 0.3, {
-				rotation:360,
-				x:60, 
-				y:30, 
+				//rotation:360,
+				//x:60,
+				//y:30,
 				opacity:1,
 				ease:SlowMo.ease.config(0.5, 0.4)
 			}, 0.3);
@@ -190,8 +190,8 @@ function accfun(){
 			//$('.loading-mask').html('<br />' + p + '%')
 		});
 	}else{
-		// $('#loading').hide();
-		// accfun();
+		 $('#loading').hide();
+		 accfun();
 	}
 
 	
@@ -200,6 +200,7 @@ function accfun(){
 }
 
 
+accfun();
 
 
 
@@ -207,7 +208,7 @@ function accfun(){
 
 
 function swipeFun(){
-      window.mySwipe = new Swipe(document.getElementById('slider'), {
+      window.mySwipe = new Swiper(document.getElementById('slider'), {
       startSlide: 0,
       auto: false, //设置自动切换时间，单位毫秒
       continuous: false,
