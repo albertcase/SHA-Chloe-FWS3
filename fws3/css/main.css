@@ -633,6 +633,10 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 		margin: 12% 0 0 0;
 	}
 
+	.sliderCon{
+		margin: 10% 0;
+	}
+
 }
 
 /* 6 */
@@ -644,6 +648,10 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 
 	.slogan{
 		margin: 12% 0 0 0;
+	}
+
+	.sliderCon{
+		margin: 10% 0;
 	}
 
 }

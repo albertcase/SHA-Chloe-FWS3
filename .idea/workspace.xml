@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc0b0506-0eb8-49e3-a499-5d9ea6247f44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/img/poster.jpg" afterPath="$PROJECT_DIR$/fws3/img/poster.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/img/slider_3_1.jpg" afterPath="$PROJECT_DIR$/fws3/img/slider_3_1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/css/main.css" afterPath="$PROJECT_DIR$/fws3/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/countdown.php" afterPath="$PROJECT_DIR$/protected/views/site/countdown.php" />
     </list>
     <ignored path="sha-chloe-fws3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +36,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fws3/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9223744">
-              <caret line="646" column="5" selection-start-line="646" selection-start-column="5" selection-end-line="646" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.4178082">
+              <caret line="637" column="5" selection-start-line="637" selection-start-column="5" selection-end-line="637" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -751,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fws3/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9223744">
-          <caret line="646" column="5" selection-start-line="646" selection-start-column="5" selection-end-line="646" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.4178082">
+          <caret line="637" column="5" selection-start-line="637" selection-start-column="5" selection-end-line="637" selection-end-column="5" />
           <folding />
         </state>
       </provider>
