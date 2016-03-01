@@ -25,6 +25,11 @@ class SiteController extends Controller
             $this->render('message');
     }
 
+    public function actionForm(){
+            $this->layout = '//layouts/fws3_main';
+            $this->render('form');
+    }
+
     public function actionTest()
     	{
     	    $this->layout = '//layouts/fws3_main';
