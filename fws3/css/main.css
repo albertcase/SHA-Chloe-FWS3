@@ -244,7 +244,8 @@ a,img { -webkit-touch-callout: none;}
 }
 
 #time{
-	font-family: "微软雅黑","Microsoft Yahei","STHeiti";
+	/*font-family: "微软雅黑","Microsoft Yahei","STHeiti";*/
+	font-family: Arial;
 	font-size: 7.0rem;
 	font-weight: normal;
 }
