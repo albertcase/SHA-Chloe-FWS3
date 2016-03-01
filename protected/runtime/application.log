@@ -8790,3 +8790,159 @@ Stack trace:
 REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
 in /vagrant/protected/controllers/ApiController.php (39)
 in /vagrant/index.php (19)
+2016/03/01 19:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/01 19:01:57 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:02:04 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:02:07 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:02:45 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:02:59 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:03:24 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:03:51 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:03:56 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:04:11 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/01 19:04:21 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:05:23 [error] [php] file_get_contents(http://chloewechat.samesamechina.com/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown): failed to open stream: Invalid argument (/vagrant/protected/controllers/ApiController.php:39)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/jssdk?url=http%3A%2F%2F192.168.8.100%3A9103%2Fsite%2Fcountdown
+in /vagrant/protected/controllers/ApiController.php (39)
+in /vagrant/index.php (19)
+2016/03/01 19:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---

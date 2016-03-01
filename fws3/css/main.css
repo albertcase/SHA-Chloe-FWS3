@@ -659,11 +659,29 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 /* 5s */
 
 @media handheld and (min-height:490px),screen and (max-height:510px) {
+	.sliderCon{
+		margin: 6% 0;
+	}
+
+	.sliderCon .swiper-slide p{
+		margin: 1.6% 0 0 0;
+	}
 
 }
 
 
+/* 4s */
 
+@media handheld and (min-height:400px),screen and (max-height:420px) {
+	.sliderCon{
+		margin: 4% 0;
+	}
+
+	.sliderCon .swiper-slide p{
+		margin: 1.6% 0 0 0;
+	}
+
+}
 
 
 
