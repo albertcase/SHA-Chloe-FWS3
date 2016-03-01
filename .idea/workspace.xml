@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc0b0506-0eb8-49e3-a499-5d9ea6247f44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/countdown.php" afterPath="$PROJECT_DIR$/protected/views/site/countdown.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/img/loading.png" afterPath="$PROJECT_DIR$/fws3/img/loading.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/img/logo-mask.png" afterPath="$PROJECT_DIR$/fws3/img/logo-mask.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/js/wechat.js" afterPath="$PROJECT_DIR$/fws3/js/wechat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
     </list>
     <ignored path="sha-chloe-fws3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="countdown.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="countdown.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/countdown.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6718147">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="140" column="2" selection-start-line="140" selection-start-column="2" selection-end-line="140" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -47,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/fws3_main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="96" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -105,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wechat.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wechat.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fws3/js/wechat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.032818533">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -134,8 +137,8 @@
         <option value="$PROJECT_DIR$/protected/views/site/message.php" />
         <option value="$PROJECT_DIR$/fws3/css/main.css" />
         <option value="$PROJECT_DIR$/protected/views/layouts/fws3_main.php" />
-        <option value="$PROJECT_DIR$/fws3/js/wechat.js" />
         <option value="$PROJECT_DIR$/protected/views/site/countdown.php" />
+        <option value="$PROJECT_DIR$/fws3/js/wechat.js" />
       </list>
     </option>
   </component>
@@ -747,14 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/fws3_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="96" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cw/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -765,18 +760,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fws3/js/wechat.js">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/countdown.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="140" column="2" selection-start-line="140" selection-start-column="2" selection-end-line="140" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/countdown.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/fws3_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6718147">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fws3/js/wechat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032818533">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="30" />
           <folding />
         </state>
       </provider>
