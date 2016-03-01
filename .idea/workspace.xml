@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc0b0506-0eb8-49e3-a499-5d9ea6247f44" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cw/js/wechat.js" afterPath="$PROJECT_DIR$/cw/js/wechat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/js/wechat.js" afterPath="$PROJECT_DIR$/fws3/js/wechat.js" />
     </list>
     <ignored path="sha-chloe-fws3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,16 +96,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wechat.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cw/js/wechat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1969112">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fws3/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wechat.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wechat.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fws3/js/wechat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.7876448">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -136,7 +127,6 @@
         <option value="$PROJECT_DIR$/cw/js/swipe.js" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/fws3/js/Draggable.min.js" />
-        <option value="$PROJECT_DIR$/fws3/js/wechat.js" />
         <option value="$PROJECT_DIR$/fws3/js/main.js" />
         <option value="$PROJECT_DIR$/fws3/js/toucher.js" />
         <option value="$PROJECT_DIR$/protected/views/site/countdown.php" />
@@ -146,6 +136,7 @@
         <option value="$PROJECT_DIR$/protected/views/layouts/fws3_main.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cw/js/wechat.js" />
+        <option value="$PROJECT_DIR$/fws3/js/wechat.js" />
       </list>
     </option>
   </component>
@@ -702,16 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cw/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="240" column="8" selection-start-line="240" selection-start-column="8" selection-end-line="241" selection-end-column="9" />
-          <folding>
-            <marker date="1456286133000" expanded="true" signature="439:449" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fws3/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -751,14 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fws3/js/wechat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -785,8 +758,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cw/js/wechat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1969112">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.032818533">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cw/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="240" column="8" selection-start-line="240" selection-start-column="8" selection-end-line="241" selection-end-column="9" />
+          <folding>
+            <marker date="1456286133000" expanded="true" signature="439:449" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fws3/js/wechat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7876448">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
       </provider>
