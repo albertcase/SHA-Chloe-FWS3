@@ -202,7 +202,7 @@
 				function show(time){
 					var timeOffset = ((-1 * (new Date()).getTimezoneOffset()) - (beijingTimeZone * 60)) * 60000;
 					var now = new Date(time - timeOffset);
-					document.getElementById('time').innerHTML = (new Date()).getFormattedDate("hh:mm");
+					document.getElementById('time').innerHTML = (new Date()).getFormattedDate("hh<em>:</em>mm");
 					setClockTime(time);
 					document.getElementById('date').innerHTML = format(dateHtml, [ p((now.getMonth()+1)), p(now.getDate()), week.charAt(now.getDay())]);
 				}

@@ -247,13 +247,19 @@ a,img { -webkit-touch-callout: none;}
 	/*font-family: "微软雅黑","Microsoft Yahei","STHeiti";*/
 	font-family: Arial;
 	font-size: 7.0rem;
-	font-weight: normal;
+}
+
+#time em{
+	display: inline-block;
+	font-family: "微软雅黑","Microsoft Yahei","STHeiti";
+	padding: 0 6px 0 0;
+	vertical-align: top;
 }
 
 #date{
 	font-family: Arial;
 	font-size: 1.6rem;
-	margin: -2% 0 0 0;
+	margin: -1% 0 0 0;
 }
 
 .message{
