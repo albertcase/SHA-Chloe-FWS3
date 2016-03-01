@@ -19,7 +19,7 @@
 </div>
 
 <div class="slogan">
-    距离 Chloé 2016 秋冬巴黎时装秀<br />开幕还有 <em>3</em> 天
+    距离 Chloé 2016 秋冬巴黎时装秀<br />开幕还有 <em>2</em> 天
 </div>
 
 <div class="sliderCon">
@@ -29,12 +29,20 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                <a href="javascript:;" class="playBtn"></a>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster.jpg" width="100%" />
+                <div class="sscon">
+                    <a href="javascript:;" class="playBtn"></a>
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster.jpg" width="100%" />
+                    <p>“And I…”<br />2016秋冬时装秀，即将启幕。<br /><br />左右滑动查看高圆圆最新照片</p>
+                </div>
+
+
             </div>
 
             <div class="swiper-slide">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/slider_3_1.jpg" width="100%" />
+                <div class="sscon">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/slider_3_1.jpg" width="100%" />
+                    <p>2016秋冬时装秀，即将启幕。<br /><br />左右滑动查看高圆圆最新照片</p>
+                </div>
             </div>
 
         </div>
@@ -45,11 +53,8 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
 
-</div>
 
-<p class="slider_tis">
-    左右滑动查看高圆圆最新照片
-</p>
+</div>
 
 
 </div>
@@ -61,11 +66,10 @@
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         slidesPerView: 1,
-        paginationClickable: true,
+        paginationClickable: true
         //loop: true
     });
 </script>
