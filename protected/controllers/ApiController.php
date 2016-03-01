@@ -36,7 +36,7 @@ class ApiController extends Controller
 		$url = urldecode($_GET['url']);
 		//$wechatObj = new Weixin();
 		//echo $url=$wechatObj->getJsSDK($url);
-		echo file_get_contents("http://chloewechat.samesamechina.com/weixin/jssdk?url=".urlencode($url));
+		echo file_get_contents("http://chloewechat.samesamechina.com/api/jssdk?url=".urlencode($url));
 		Yii::app()->end();
 	}
 
