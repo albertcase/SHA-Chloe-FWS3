@@ -54,9 +54,9 @@
 
 </div>
 
-<div class="sliderArr">
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/sliderArr.png" width="100%" />
-</div>
+//<div class="sliderArr">
+//    <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/sliderArr.png" width="100%" />
+//</div>
 
 <!-- Initialize Swiper -->
 <script>
