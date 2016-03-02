@@ -162,7 +162,7 @@ p{
 	width: 100%;
 	float: left;
 	position: relative;
-	opacity: 0;
+	/*opacity: 0;*/
 	display: inline-block;
 }
 
