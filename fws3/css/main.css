@@ -359,8 +359,8 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 	margin-top: -20%;
 }
 
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
-	/*opacity: 0;*/
+.arrHide .swiper-button-next.swiper-button-disabled, .arrHide .swiper-button-prev.swiper-button-disabled{
+	opacity: 0;
 }
 
 .homeFooter{

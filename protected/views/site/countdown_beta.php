@@ -10,7 +10,7 @@
     <div id="mod_player"></div>
 </div>
 
-<div class="homepage" id="touchBox">
+<div class="homepage arrHide" id="touchBox">
 
 <div href="javascript:;" class="logo">
 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/logo.png" width="100%" />
@@ -71,7 +71,7 @@
                 <div class="swiper-slide">
                     <div class="sscon">
                         <a href="javascript:;" class="playBtn"></a>
-                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster.jpg" width="100%" />
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster_one.jpg" width="100%" />
                         <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips1_1.png" width="100%" /></p>
                     </div>
                 </div>
@@ -138,55 +138,6 @@
     ;(function($){
         $(function(){
 
-            var vidArr = ["j0186t7y55y"];
-            var vPic = ["../fws3/img/poster.jpg"]
-
-    		var player;
-    		var videoWidth = document.body.clientWidth;
-    		var videoHeight = videoWidth * (1080 / 1920);
-
-    		$(".video").css({"height":videoHeight});
-
-    		var videoFun = function(n){
-    			var video = new tvp.VideoInfo();
-    			video.setVid(vidArr[n]);
-    			player = new tvp.Player();
-    			player.create({
-    				width: videoWidth + 'px',
-    				height: videoHeight + 'px',
-    				video: video,
-    				pic: vPic[n],
-    				modId:"mod_player", //mod_player是刚刚在页面添加的div容器 autoplay:true
-    				onallended: function () {
-                        //播放器播放完毕时
-                        $(".videoFrame").hide();
-                        videoFun("0");
-                    },
-                    onpause: function () {
-                        //播放器触发暂停时，目前只针对HTML5播放器有效
-                        $(".videoFrame").hide();
-                        videoFun("0");
-                    },
-    			});
-
-    		}
-
-            videoFun(0);
-
-            $(".playBtn").click(function(){
-                $(".videoFrame").show();
-                player.enterFullScreen();
-                player.play();
-            })
-
-            $(".videoFrame").click(function(){
-                $(".videoFrame").hide();
-                videoFun("0");
-            })
-
-
-     	})
-
 
     function pageSection(cnode){
         $(".pageSection").hide();
@@ -222,8 +173,23 @@
         //loop: true
     });
 
+    var player;
     var StateManager = function(){
-      currState = 'cone';
+      var vidArr = {
+          "ctwo": "j0186t7y55y",
+          "cone": "r0186tpke5l"
+      }
+      var vPic = {
+          "ctwo": "../fws3/img/poster.jpg",
+          "cone": "../fws3/img/poster_one.jpg"
+      }
+
+      var videoWidth = document.body.clientWidth;
+      var videoHeight = videoWidth * (1080 / 1920);
+
+      $(".video").css({"height":videoHeight});
+
+
       var states = {
         ctwo: function(){
             swipercTwo.update();
@@ -245,11 +211,42 @@
             state == null ? state = currState : state;
             pageSection(state);
             states[ state ] && states[ state ]();
+            videoFun();
       }
+
+
+      /* 视频 */
+      var videoFun = function(){
+      console.log(vidArr[currState]);
+        var video = new tvp.VideoInfo();
+        video.setVid(vidArr[currState]);
+        player = new tvp.Player();
+        player.create({
+            width: videoWidth + 'px',
+            height: videoHeight + 'px',
+            video: video,
+            pic: vPic[currState],
+            modId:"mod_player", //mod_player是刚刚在页面添加的div容器 autoplay:true
+            onallended: function () {
+                  //播放器播放完毕时
+                  $(".videoFrame").hide();
+                  $("#mod_player").html("");
+                  videoFun(currState);
+              },
+              onpause: function () {
+                  //播放器触发暂停时，目前只针对HTML5播放器有效
+                  $(".videoFrame").hide();
+                  $("#mod_player").html("");
+                  videoFun(currState);
+              },
+        });
+
+    }
+
       return {
-          changeState  : changeState
+          changeState  : changeState, videoFun : videoFun
       }
-    }, currState;
+    }, currState = 'cone';;
     var stateManager = StateManager();
     stateManager.changeState();
 
@@ -293,7 +290,32 @@
 
 
 
-    })(jQuery)
+
+
+
+
+
+
+
+
+
+
+                $(".playBtn").click(function(){
+                    $(".videoFrame").show();
+                    player.enterFullScreen();
+                    player.play();
+                })
+
+                $(".videoFrame").click(function(){
+                    $(".videoFrame").hide();
+                    $("#mod_player").html("");
+                    stateManager.videoFun();
+                })
+
+
+})
+
+})(jQuery)
 
 
 
