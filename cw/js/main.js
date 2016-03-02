@@ -63,7 +63,7 @@ window.location.hash = '';
 	$(".burger").addClass("hover").stop().animate({"left":"-100px"},function(){
 		$(".menu").show();
 
-			TweenMax.staggerTo(".menu li", 0.3, {
+			TweenMax.staggerTo(".menu li", 0.2, {
 				//rotation:360,
 				//x:60,
 				//y:30,
@@ -87,9 +87,9 @@ document.addEventListener('touchmove' , function (ev){
 function reduction_fun(){
 	$(".menu,#mask").hide();
 	TweenMax.staggerTo(".menu li", 0.1, {
-		rotation:0,
-		x:-60, 
-		y:-30, 
+		//rotation:0,
+		//x:-60,
+		//y:-30,
 		opacity:0,
 		ease:Linear.easeNone
 	}, 0.1);
