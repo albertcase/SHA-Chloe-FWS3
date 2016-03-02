@@ -19,7 +19,7 @@
 </div>
 
 <div class="slogan">
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/slogan.png" width="100%" />
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/slogan_2.png" width="100%" />
 </div>
 
 <div class="sliderCon">
@@ -32,16 +32,14 @@
                 <div class="sscon">
                     <a href="javascript:;" class="playBtn"></a>
                     <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster.jpg" width="100%" />
-                    <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips1.png" width="100%" /></p>
+                    <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips2_1.png" width="100%" /></p>
                 </div>
-
-
             </div>
 
             <div class="swiper-slide">
                 <div class="sscon">
                     <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/slider_3_1.jpg" width="100%" />
-                    <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips2.png" width="100%" /></p>
+                    <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips2_2.png" width="100%" /></p>
                 </div>
             </div>
 
@@ -56,12 +54,13 @@
 
 </div>
 
-
-</div>
-
 <!-- <div class="sliderArr">
     <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/sliderArr.png" width="100%" />
 </div> -->
+
+</div>
+
+
 
 <!-- Initialize Swiper -->
 <script>

@@ -20,6 +20,11 @@ class SiteController extends Controller
         $this->render('countdown');
     }
 
+    public function actionCountdownbeta(){
+        $this->layout = '//layouts/fws3_main';
+        $this->render('countdown_beta');
+    }
+
     public function actionMessage(){
     	    $this->layout = '//layouts/fws3_main';
             $this->render('message');
