@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc0b0506-0eb8-49e3-a499-5d9ea6247f44" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cw/images/logo-mask.png" afterPath="$PROJECT_DIR$/cw/images/logo-mask.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cw/css/main.css" afterPath="$PROJECT_DIR$/cw/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cw/js/main.js" afterPath="$PROJECT_DIR$/cw/js/main.js" />
     </list>
     <ignored path="sha-chloe-fws3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +89,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cw/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6707317">
+            <state vertical-scroll-proportion="1.0162601">
               <caret line="164" column="4" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="17" />
               <folding />
             </state>
@@ -131,8 +130,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="276" />
-    <option name="y" value="81" />
+    <option name="x" value="402" />
+    <option name="y" value="99" />
     <option name="width" value="1400" />
     <option name="height" value="870" />
   </component>
@@ -454,7 +453,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="276" y="81" width="1400" height="870" extended-state="0" />
+    <frame x="402" y="99" width="1400" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -801,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cw/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6707317">
+        <state vertical-scroll-proportion="1.0162601">
           <caret line="164" column="4" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="17" />
           <folding />
         </state>
