@@ -26,7 +26,7 @@ class SiteController extends Controller
     public function actionCountdownbeta(){
         $this->layout = '//layouts/fws3_main';
 
-        if (intval(date("mdHi")) >= 3021905 )
+        if (intval(date("mdHi")) >= 3022300 )
            $this->render('countdown');
         else
            $this->render('countdown_beta');
