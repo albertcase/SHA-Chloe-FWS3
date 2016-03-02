@@ -524,6 +524,12 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 	animation: sliderArr 1.5s infinite ease-in-out;
 }
 
+
+#cone .sliderArr_down{
+	bottom: auto;
+	top: 1em;
+}
+
 .sliderArr_down{
 	-webkit-animation: sliderArrDown 1.5s infinite ease-in-out;
 	-moz-animation: sliderArrDown 1.5s infinite ease-in-out;
