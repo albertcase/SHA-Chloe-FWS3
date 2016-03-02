@@ -360,7 +360,7 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 }
 
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
-	opacity: 0;
+	/*opacity: 0;*/
 }
 
 .homeFooter{
