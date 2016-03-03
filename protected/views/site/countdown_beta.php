@@ -106,7 +106,7 @@
                     <div class="sscon">
                         <a href="javascript:;" class="playBtn"></a>
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster.jpg" width="100%" />
-                        <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips1_1.png" width="100%" /></p>
+                        <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips0_1.png" width="100%" /></p>
                     </div>
                 </div>
             </div>
