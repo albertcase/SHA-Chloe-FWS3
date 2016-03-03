@@ -45,7 +45,7 @@ LoadFn(allImgArr , function (){
 	console.log("加载完成！");
 } , function ( p ){
 	$('.loading-mask').animate({"width":p+"%"});
-	console.log(p);
+	//console.log(p);
 	//$('.loading-mask').html('<br />' + p + '%')
 });
 

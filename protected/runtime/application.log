@@ -10995,3 +10995,299 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/cw/js/maps/swiper.min.js.map
 ---
+2016/03/03 12:23:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:23:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:24:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:24:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:25:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:28:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:28:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:36:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:38:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:38:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 12:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:21:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:23:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:24:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
+2016/03/03 14:24:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/js/maps/swiper.min.js.map"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/js/maps/swip...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/js/maps/swiper.min.js.map
+---
