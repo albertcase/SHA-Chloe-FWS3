@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc0b0506-0eb8-49e3-a499-5d9ea6247f44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fws3/css/main.css" afterPath="$PROJECT_DIR$/fws3/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/countdown.php" afterPath="$PROJECT_DIR$/protected/views/site/countdown.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/countdown_beta.php" afterPath="$PROJECT_DIR$/protected/views/site/countdown_beta.php" />
     </list>
     <ignored path="sha-chloe-fws3.iws" />
@@ -41,8 +37,8 @@
       <file leaf-file-name="countdown_beta.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/countdown_beta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.395753">
-              <caret line="185" column="46" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.7876448">
+              <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -835,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/countdown_beta.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.395753">
-          <caret line="185" column="46" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.7876448">
+          <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -248,7 +248,7 @@
       return {
           changeState  : changeState, videoFun : videoFun
       }
-    }, currState = 'cone';;
+    }, currState = 'czero';;
     var stateManager = StateManager();
     stateManager.changeState();
 
