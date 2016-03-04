@@ -1,13 +1,16 @@
+
 <div id="loading">
 	<div class="loading-logo">
 		<div class="loading-mask"></div>
 	</div>
 </div>
 
-<!-- 视频 -->
+<!-- 视频
 <div class="videoFrame">
     <div id="mod_player"></div>
-</div>
+</div> -->
+
+
 
 <!-- 音频 -->
 <audio id="audio" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/audio.wav" ></audio>
@@ -22,9 +25,10 @@
     <div class="message">
         <div class="msReference"></div>
         <div class="message_con">
-            <p>微信</p>
+            <!-- <p>微信</p>
             <p>你有一条来自CHLOE FW 2016得微信消息</p>
-            <p class="tis">滑动来查看</p>
+            <p class="tis">滑动来查看</p> -->
+            <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m.png" width="70%" /></p>
         </div>
         <div class="message_line"></div>
     </div>
@@ -36,20 +40,35 @@
 </div>
 
 <div class="homepage" id="dialog">
+    <div class="mfooter">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mfooter.png" width="100%" />
+    </div>
+
+    <div class="pupLayer">
+        <!-- Swiper -->
+            <div class="swiper-container" id="pupLayerBox">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                    </div>
+                </div>
+            </div>
+    </div>
+
     <!-- Swiper -->
-    <div class="swiper-container">
+    <div class="swiper-container" id="messageBox">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <ul class="dialogList">
                     <li>
+                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_1.png" width="100%" /></div>
                         <dl>
                             <dt>
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
                             </dt>
                             <dd>
                                 <span class="triangle-left"></span>
-                                怎么样？很美吧！快来详细看看Chloe 2016去哦ID拍
-                                秋冬巴黎时装秀吧。
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mw_1.png" width="100%" />
                             </dd>
                         </dl>
                     </li>
@@ -59,26 +78,120 @@
                             <dt>
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
                             </dt>
-                            <dd>
-                                <span class="triangle-left"></span>
-                                <a href="javascript:;" class="playBtn">Chloe 2016秋冬巴黎时装秀</a>
+                            <dd class="nobg">
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b1.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m1.png" width="100%" />
                             </dd>
                         </dl>
                     </li>
+
                     <li>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd class="nobg">
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b2.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m2.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_2.png" width="100%" /></div>
                         <dl>
                             <dt>
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
                             </dt>
                             <dd>
                                 <span class="triangle-left"></span>
-                                怎么样？很美吧！快来详细看看Chloe 2016去哦ID拍
-                                秋冬巴黎时装秀吧。
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mw_2.png" width="100%" />
                             </dd>
                         </dl>
                     </li>
 
                     <li>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd class="nobg">
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b3.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m3.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_3.png" width="100%" /></div>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd>
+                                <span class="triangle-left"></span>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mw_3.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd class="nobg">
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b4.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m4.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_4.png" width="100%" /></div>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd>
+                                <span class="triangle-left"></span>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mw_4.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd class="nobg">
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b5.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m5.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_5.png" width="100%" /></div>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd>
+                                <span class="triangle-left"></span>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mw_5.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <dl>
+                            <dt>
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                            </dt>
+                            <dd class="nobg">
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b6.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m6.png" width="100%" />
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <!-- <li>
                         <dl>
                             <dt>
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
@@ -96,19 +209,7 @@
                                 </dl>
                             </dd>
                         </dl>
-                    </li>
-                    <li>
-                        <dl>
-                            <dt>
-                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
-                            </dt>
-                            <dd>
-                                <span class="triangle-left"></span>
-                                怎么样？很美吧！快来详细看看Chloe 2016去哦ID拍
-                                秋冬巴黎时装秀吧。
-                            </dd>
-                        </dl>
-                    </li>
+                    </li> -->
 
 
                 </ul>
@@ -259,7 +360,7 @@
                             }
                         });
                         TweenMax.fromTo($("#dialog"), 1, {
-                            scale:3,
+                            scale:2,
                             blurFilter:{blurX:50, blurY:10},
                             opacity:0
                         }, {
@@ -282,7 +383,7 @@
 
             var swiper;
 
-            swiper = new Swiper('.swiper-container', {
+            swiper = new Swiper('#messageBox', {
                   direction: 'vertical',
                   slidesPerView: 'auto',
                   mousewheelControl: true,
@@ -315,41 +416,113 @@
                          }}, 2)
                          .to($(".dialogList li").eq(1), 0.1, {opacity:1, onComplete:function(){
                                document.getElementById('audio').play();
+                               if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                   swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                               }
+                               swiper.update();
                                $(".dialogList li").eq(2).css({"display":"inline-block"});
                          }}, 4)
                          .to($(".dialogList li").eq(2), 0.1, {opacity:1, onComplete:function(){
                                document.getElementById('audio').play();
+
+                               if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                   swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                               }
+                               swiper.update();
                                $(".dialogList li").eq(3).css({"display":"inline-block"});
                          }}, 6)
                          .to($(".dialogList li").eq(3), 0.1, {opacity:1, onComplete:function(){
                                document.getElementById('audio').play();
-                               swiper.update();
-                               if(parseInt($(".dialogList").css("height")) > swiper.height){
-                                    swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 20));
-                               }
 
+                               if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                    swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                               }
+                               swiper.update();
                                $(".dialogList li").eq(4).css({"display":"inline-block"});
                           }}, 8)
                          .to($(".dialogList li").eq(4), 0.1, {opacity:1, onComplete:function(){
                                document.getElementById('audio').play();
 
-                               document.title="Chloé 2016 秋冬时装秀";
-                               // hack在微信等webview中无法修改document.title的情况
-                               $iframe.on('load',function() {
-                                  setTimeout(function() {
-                                      $iframe.off('load').remove();
-                                  }, 0);
-                               }).appendTo($body);
-
-
-                               if(parseInt($(".dialogList").css("height")) > swiper.height){
-                                    swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 20));
+                               if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                    swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
                                }
-
                                swiper.update();
-                         }}, 10);
+                               $(".dialogList li").eq(5).css({"display":"inline-block"});
+
+                         }}, 10)
+                         .to($(".dialogList li").eq(5), 0.1, {opacity:1, onComplete:function(){
+                                document.getElementById('audio').play();
+
+                                if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                     swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                                }
+                                swiper.update();
+                                $(".dialogList li").eq(6).css({"display":"inline-block"});
+
+                          }}, 12)
+                         .to($(".dialogList li").eq(6), 0.1, {opacity:1, onComplete:function(){
+                                 document.getElementById('audio').play();
+
+                                 if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                      swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                                 }
+                                 swiper.update();
+                                 $(".dialogList li").eq(7).css({"display":"inline-block"});
+
+                           }}, 14)
+                         .to($(".dialogList li").eq(7), 0.1, {opacity:1, onComplete:function(){
+                                 document.getElementById('audio').play();
+
+                                 if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                      swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                                 }
+                                 swiper.update();
+                                 $(".dialogList li").eq(8).css({"display":"inline-block"});
+
+                           }}, 16)
+                         .to($(".dialogList li").eq(8), 0.1, {opacity:1, onComplete:function(){
+                                 document.getElementById('audio').play();
+
+                                 if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                      swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                                 }
+                                 swiper.update();
+                                 $(".dialogList li").eq(9).css({"display":"inline-block"});
+
+                           }}, 18)
+                         .to($(".dialogList li").eq(9), 0.1, {opacity:1, onComplete:function(){
+                                 document.getElementById('audio').play();
+
+                                 if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                      swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                                 }
+
+                                 swiper.update();
+                                 $(".dialogList li").eq(10).css({"display":"inline-block"});
+                           }}, 20)
+                         .to($(".dialogList li").eq(10), 0.1, {opacity:1, onComplete:function(){
+                                  document.getElementById('audio').play();
+
+                                  document.title="高圆圆";
+                                  // hack在微信等webview中无法修改document.title的情况
+                                  $iframe.on('load',function() {
+                                    setTimeout(function() {
+                                        $iframe.off('load').remove();
+                                    }, 0);
+                                  }).appendTo($body);
+
+                                  if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                       swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                                  }
+
+                                  swiper.update();
+                            }}, 22);
 
             }
+
+
+
+
 
 
 
@@ -359,59 +532,86 @@
 
 
 <script type="text/javascript">
-    ;(function($){
-        $(function(){
+//    ;(function($){
+//        $(function(){
+//
+//            var vidArr = ["n01549ttjri"];
+//            var vPic = ["../fws3/img/poster.jpg"]
+//
+//    		var player;
+//    		var videoWidth = document.body.clientWidth;
+//    		var videoHeight = videoWidth * (1080 / 1920);
+//
+//    		$(".video").css({"height":videoHeight});
+//
+//    		var videoFun = function(n){
+//    			var video = new tvp.VideoInfo();
+//    			video.setVid(vidArr[n]);
+//    			player = new tvp.Player();
+//    			player.create({
+//    				width: videoWidth + 'px',
+//    				height: videoHeight + 'px',
+//    				video: video,
+//    				pic: vPic[n],
+//    				modId:"mod_player", //mod_player是刚刚在页面添加的div容器 autoplay:true
+//    				onallended: function () {
+//                        //播放器播放完毕时
+//                        $(".videoFrame").hide();
+//                        videoFun("0");
+//                    },
+//                    onpause: function () {
+//                        //播放器触发暂停时，目前只针对HTML5播放器有效
+//                        $(".videoFrame").hide();
+//                        videoFun("0");
+//                    },
+//    			});
+//
+//    		}
+//
+//            videoFun(0);
+//
+//            $(".playBtn").click(function(){
+//                $(".videoFrame").show();
+//                player.enterFullScreen();
+//                player.play();
+//            })
+//
+//            $(".videoFrame").click(function(){
+//                $(".videoFrame").hide();
+//                videoFun("0");
+//            })
+//
+//
+//     	})
+//
+//    })(jQuery)
 
-            var vidArr = ["n01549ttjri"];
-            var vPic = ["../fws3/img/poster.jpg"]
 
-    		var player;
-    		var videoWidth = document.body.clientWidth;
-    		var videoHeight = videoWidth * (1080 / 1920);
+var swiperPupLayer = new Swiper('#pupLayerBox', {
+      direction: 'vertical',
+      slidesPerView: 'auto',
+      mousewheelControl: true,
+      freeMode: true
+});
 
-    		$(".video").css({"height":videoHeight});
+$(".nobg img").click(function(){
+    $(".pupLayer").css("height",$(document).height());
+    var bImgNode = new Image();
+        bImgNode.src = $(this).attr("data-src");
+        bImgNode.width = $(document).width();
+        bImgNode.onload = function(){
+            $(".pupLayer .swiper-slide").html(bImgNode);
+            $(".pupLayer").animate({"opacity": "1"},function(){
+                swiperPupLayer.update();
+            });
 
-    		var videoFun = function(n){
-    			var video = new tvp.VideoInfo();
-    			video.setVid(vidArr[n]);
-    			player = new tvp.Player();
-    			player.create({
-    				width: videoWidth + 'px',
-    				height: videoHeight + 'px',
-    				video: video,
-    				pic: vPic[n],
-    				modId:"mod_player", //mod_player是刚刚在页面添加的div容器 autoplay:true
-    				onallended: function () {
-                        //播放器播放完毕时
-                        $(".videoFrame").hide();
-                        videoFun("0");
-                    },
-                    onpause: function () {
-                        //播放器触发暂停时，目前只针对HTML5播放器有效
-                        $(".videoFrame").hide();
-                        videoFun("0");
-                    },
-    			});
+        }
+})
 
-    		}
-
-            videoFun(0);
-
-            $(".playBtn").click(function(){
-                $(".videoFrame").show();
-                player.enterFullScreen();
-                player.play();
-            })
-
-            $(".videoFrame").click(function(){
-                $(".videoFrame").hide();
-                videoFun("0");
-            })
-
-
-     	})
-
-    })(jQuery)
+$(".pupLayer").click(function(){
+    $(this).css({"opacity": "0","height":"0"});
+    $(this).find(".swiper-slide").html("");
+})
 
 </script>
 

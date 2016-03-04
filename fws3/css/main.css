@@ -389,7 +389,7 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 }
 
 .dialogList{
-	width: 90%;
+	width: 94%;
 	display: inline-block;
 }
 
@@ -412,7 +412,7 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 }
 
 .dialogList dd{
-	width: 78%;
+	width: 67%;
 	float: left;
 	display: inline-block;
 	font-size: 1.5rem;
@@ -483,14 +483,14 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 	border-right:8px solid #fff;
 	position: absolute;
 	left:-8px;
-	top:13px;
+	top:18px;
 }
 
 
 
 #dialog .swiper-container{
 	width: 100%;
-	height: 100%;
+	height: 93%;
 }
 
 #dialog .swiper-slide {
@@ -651,9 +651,51 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 	display: none;
 }
 
+.mTime{
+	width: 38%;
+	display: inline-block;
+	margin: 0 0 15px 0;
+}
 
+.dialogList dd.nobg{
+	background: none;
+	width: 30%;
+	padding: 0;
+	margin: 0 0 0 3%;
+}
 
+.mfooter{
+	width: 100%;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	z-index: 999;
+}
 
+.pupLayer{
+	width: 100%;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	background: #000;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	opacity: 0;
+}
 
 
 /* 6plus */
