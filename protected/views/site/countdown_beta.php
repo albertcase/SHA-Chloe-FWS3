@@ -88,6 +88,9 @@
     <div class="sliderArr_down">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/sliderArr.png" width="100%" />
     </div>
+    <div class="sliderArr">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/sliderArrDown.png" width="100%" />
+    </div>
 </div>
 
 
@@ -105,8 +108,8 @@
                 <div class="swiper-slide">
                     <div class="sscon">
                         <a href="javascript:;" class="playBtn"></a>
-                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster.jpg" width="100%" />
-                        <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips1_1.png" width="100%" /></p>
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/poster_zero.jpg" width="100%" />
+                        <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/tips0_1.png" width="100%" /></p>
                     </div>
                 </div>
             </div>
@@ -120,7 +123,7 @@
     </div>
 
     <div class="sliderArr_down">
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/sliderArrDown.png" width="100%" />
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/sliderArr.png" width="100%" />
     </div>
 </div>
 
@@ -177,11 +180,13 @@
     var StateManager = function(){
       var vidArr = {
           "ctwo": "j0186t7y55y",
-          "cone": "r0186tpke5l"
+          "cone": "r0186tpke5l",
+          "czero": "m0186l97ggc"
       }
       var vPic = {
           "ctwo": "../fws3/img/poster.jpg",
-          "cone": "../fws3/img/poster_one.jpg"
+          "cone": "../fws3/img/poster_one.jpg",
+          "czero": "../fws3/img/poster_zero.jpg"
       }
 
       var videoWidth = document.body.clientWidth;
@@ -246,7 +251,7 @@
       return {
           changeState  : changeState, videoFun : videoFun
       }
-    }, currState = 'cone';;
+    }, currState = 'czero';;
     var stateManager = StateManager();
     stateManager.changeState();
 
@@ -254,37 +259,27 @@
     var myTouch = util.toucher(document.getElementById('touchBox'));
     myTouch.on('swipeUp',function(){
         //console.log("up:" + currState);
+
         if(currState == "ctwo"){
              stateManager.changeState("cone");
+        }else if(currState == "cone"){
+            stateManager.changeState("czero");
         }else{
 
         }
-
-//        if(currState == "ctwo"){
-//             stateManager.changeState("cone");
-//        }else if(currState == "cone"){
-//            stateManager.changeState("czero");
-//        }else{
-//
-//        }
 
     })
 
     myTouch.on('swipeDown',function(){
         //console.log("down:" + currState);
+
         if(currState == "cone"){
              stateManager.changeState("ctwo");
+        }else if(currState == "czero"){
+            stateManager.changeState("cone");
         }else{
 
         }
-
-//        if(currState == "cone"){
-//             stateManager.changeState("ctwo");
-//        }else if(currState == "czero"){
-//            stateManager.changeState("cone");
-//        }else{
-//
-//        }
 
     })
 

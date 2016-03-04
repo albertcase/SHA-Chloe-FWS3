@@ -237,6 +237,9 @@ p{
 	width: 100%;
 }
 
+#fullpage .fp-section{
+	background: #000;
+}
 
 .fp-controlArrow{
 	position: absolute;

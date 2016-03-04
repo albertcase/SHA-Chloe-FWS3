@@ -15,7 +15,7 @@
 
 
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/jquery.fullPage.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/main.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/main.css?v=0002" />
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jweixin.js"></script>
@@ -33,8 +33,8 @@
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?478f87698aacaa25ed932815241d5930";
-  var s = document.getElementsByTagName("script")[0]; 
+  hm.src = "//hm.baidu.com/hm.js?8a845eb6a16644ca0a1a019d7a5a3eb3";
+  var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>

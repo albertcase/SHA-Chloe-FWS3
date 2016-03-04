@@ -525,7 +525,7 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 }
 
 
-#cone .sliderArr_down{
+#cone .sliderArr_down,#czero .sliderArr_down{
 	bottom: auto;
 	top: 1em;
 }
