@@ -43,8 +43,8 @@ var _hmt = _hmt || [];
 
 <?php echo $content; ?>
 
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js?v=0002"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/wechat.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js?v=0003"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/wechat_message.js"></script>
 
 </body>
 </html>

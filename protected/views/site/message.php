@@ -252,6 +252,14 @@
                 }
 			</script>
 			<script type="text/javascript">
+			var myDate = new Date();
+			    var _cm = myDate.getMonth();
+			    var _cd = myDate.getDate();
+			    var _xq = myDate.getDay();
+			    var weekString = '日一二三四五六';
+
+			    var timeString = parseInt(_cm+1) + "月" + _cd + "日 周" + weekString[_xq];
+
                 //eg: pattern = "yyyy-MM-dd hh:mm:ss";
                 Date.prototype.getFormattedDate = function(pattern){
 
@@ -305,7 +313,8 @@
 					var now = new Date(time - timeOffset);
 					document.getElementById('time').innerHTML = (new Date()).getFormattedDate("hh<em>:</em>mm");
 					setClockTime(time);
-					document.getElementById('date').innerHTML = format(dateHtml, [ p((now.getMonth()+1)), p(now.getDate()), week.charAt(now.getDay())]);
+					//document.getElementById('date').innerHTML = format(dateHtml, [ p((now.getMonth()+1)), p(now.getDate()), week.charAt(now.getDay())]);
+				    document.getElementById('date').innerHTML = timeString;
 				}
 
 				function init(){
