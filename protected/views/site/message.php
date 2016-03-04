@@ -61,7 +61,7 @@
             <div class="swiper-slide">
                 <ul class="dialogList">
                     <li>
-                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_1.png" width="100%" /></div>
+                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_1.png?v=001" width="100%" /></div>
                         <dl>
                             <dt>
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
@@ -120,7 +120,7 @@
                     </li>
 
                     <li>
-                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_3.png" width="100%" /></div>
+                        <div class="mTime"><img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/mt_3.png?v=001" width="100%" /></div>
                         <dl>
                             <dt>
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
@@ -186,7 +186,7 @@
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
                             </dt>
                             <dd class="nobg">
-                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b6.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m6.png" width="100%" />
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b6.jpg?v=001" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m6.png?v=001" width="100%" />
                             </dd>
                         </dl>
                     </li>
