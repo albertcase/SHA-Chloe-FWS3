@@ -1,7 +1,7 @@
 var shareData = {
     "title": "Chloé 2016 秋冬系列",
     "link": window.location.href,
-    "imgUrl": "http://chloewechat.samesamechina.com/cw/images/share.jpg",
+    "imgUrl": "http://chloefw2016.samesamechina.com/fws3/img/share.jpg",
     "desc": ""
 }
 
