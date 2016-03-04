@@ -48,7 +48,7 @@ var _hmt = _hmt || [];
 
 <?php echo $content; ?>
 
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/main.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/main.js?v=0001"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/wechat.js"></script>
 
 </body>
