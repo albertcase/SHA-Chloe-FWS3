@@ -14,9 +14,9 @@ class ApiController extends Controller
 
 	public function actionList()
 	{
-		$sql = "select id,name from same_type order by id";
+		$sql = "select id,name from same_type";
 		$typeList = Yii::app()->db->createCommand($sql)->queryAll();
-		$sql2 = "select tid,url from same_pic where tid in (select id from same_type)";
+		$sql2 = "select tid,url from same_pic where tid in (select id from same_type) order by tid";
 		$picList = Yii::app()->db->createCommand($sql2)->queryAll();
 		$slideList = array();
 		for ($i=0;$i<count($picList);$i++) {
