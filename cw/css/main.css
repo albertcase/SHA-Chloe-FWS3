@@ -235,9 +235,11 @@ p{
 #fullpage{
 	opacity: 0;
 	width: 100%;
-	background: #000;
 }
 
+#fullpage .fp-section{
+	background: #000;
+}
 
 .fp-controlArrow{
 	position: absolute;
