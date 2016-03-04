@@ -17,7 +17,7 @@ var callback = function(contents, status){
 	}).join("");
 
 	//console.log(contentHtmls);
-	$("#menu ul").html(categoryHtml);
+	$("#menu ul").html(categoryHtml + "<li><a href='/site/message' target='_blank'>缘来高圆圆</a></li>");
 	$("#fullpage").html(contentHtmls);
 	accfun();
 	$("#pupTips").click(function(){

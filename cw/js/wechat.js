@@ -1,8 +1,8 @@
 var shareData = {
-    "title": "Chloé 2016 春夏时装秀",
+    "title": "Chloé 2016 秋冬系列",
     "link": window.location.href,
-    "imgUrl": "http://chloewechat.samesamechina.com/cw/images/share.jpg",
-    "desc": "Chloé 2016 春夏巴黎时装周，发现秀场精彩"
+    "imgUrl": "http://chloefw2016.samesamechina.com/fws3/img/share.jpg",
+    "desc": ""
 }
 
 
@@ -72,7 +72,7 @@ function wechatShare(_appid, _timestamp_val, _noncestr, _signature_val){
 
     // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
     wx.onMenuShareTimeline({
-        title: shareData.desc, // 分享标题
+        title: shareData.title, // 分享标题
         link: shareData.link, // 分享链接
         imgUrl: shareData.imgUrl, // 分享图标
         success: function () {

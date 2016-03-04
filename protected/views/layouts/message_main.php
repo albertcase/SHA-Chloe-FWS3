@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Chloé 2016 秋冬时装秀</title>
+<title>高圆圆</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="format-detection" content="telephone=no">
 <!--禁用手机号码链接(for iPhone)-->
@@ -13,7 +13,7 @@
 <meta name="Keywords" content="">
 <meta name="Description" content="...">
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/swiper.min.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/fws3/css/main.css?v=001" />
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/fws3/css/main.css?v=007" />
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jweixin.js"></script>
@@ -43,8 +43,8 @@ var _hmt = _hmt || [];
 
 <?php echo $content; ?>
 
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/wechat.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js?v=0003"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/wechat_message.js?v=02"></script>
 
 </body>
 </html>

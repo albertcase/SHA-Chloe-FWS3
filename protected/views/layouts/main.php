@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Chloé 2016 春夏时装秀</title>
+<title>Chloé 2016 秋冬系列</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="format-detection" content="telephone=no">
 <!--禁用手机号码链接(for iPhone)-->
@@ -48,8 +48,8 @@ var _hmt = _hmt || [];
 
 <?php echo $content; ?>
 
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/main.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/wechat.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/main.js?v=0002"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/wechat.js?v=002"></script>
 
 </body>
 </html>

@@ -34,7 +34,7 @@ class SiteController extends Controller
     }
 
     public function actionMessage(){
-    	    $this->layout = '//layouts/fws3_main';
+    	    $this->layout = '//layouts/message_main';
             $this->render('message');
     }
 
