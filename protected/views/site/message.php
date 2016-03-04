@@ -252,22 +252,22 @@
                 }
 			</script>
 			<script type="text/javascript">
-			            //eg: pattern = "yyyy-MM-dd hh:mm:ss";
-            			Date.prototype.getFormattedDate = function(pattern){
+                //eg: pattern = "yyyy-MM-dd hh:mm:ss";
+                Date.prototype.getFormattedDate = function(pattern){
 
-            			    function getFullStr(i){
-            			        return i>9?""+i:"0"+i;
-            			    }
+                    function getFullStr(i){
+                        return i>9?""+i:"0"+i;
+                    }
 
-            			    pattern = pattern.replace(/yyyy/,this.getFullYear())
-            			        .replace(/MM/,getFullStr(this.getMonth()+1))
-            			        .replace(/dd/,getFullStr(this.getDate()))
-            			        .replace(/hh/,getFullStr(this.getHours()))
-            			        .replace(/mm/,getFullStr(this.getMinutes()))
-            			        .replace(/ss/,getFullStr(this.getSeconds()));
+                    pattern = pattern.replace(/yyyy/,this.getFullYear())
+                        .replace(/MM/,getFullStr(this.getMonth()+1))
+                        .replace(/dd/,getFullStr(this.getDate()))
+                        .replace(/hh/,getFullStr(this.getHours()))
+                        .replace(/mm/,getFullStr(this.getMinutes()))
+                        .replace(/ss/,getFullStr(this.getSeconds()));
 
-            			    return pattern;
-            			};
+                    return pattern;
+                };
 
 
 
@@ -309,13 +309,13 @@
 				}
 
 				function init(){
-					var elm = document.createElement('SCRIPT');
-					elm.src = 'http://open.baidu.com/app?module=beijingtime&t=' + new Date().getTime();
-					document.getElementsByTagName('HEAD')[0].appendChild(elm);
-					setTimeout(function(){init()}, 60000);
-				}
+                    var elm = document.createElement('SCRIPT');
+                    elm.src = 'http://open.baidu.com/app?module=beijingtime&t=' + new Date().getTime();
+                    document.getElementsByTagName('HEAD')[0].appendChild(elm);
+                    setTimeout(function(){init()}, 60000);
+                }
 
-				window.baidu_time(1456307306783);
+                window.baidu_time(1457098533602);
 
 				})();
 
