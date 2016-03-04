@@ -13,7 +13,7 @@
 <meta name="Keywords" content="">
 <meta name="Description" content="...">
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/swiper.min.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/fws3/css/main.css?v=001" />
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/fws3/css/main.css?v=002" />
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jweixin.js"></script>
@@ -43,7 +43,7 @@ var _hmt = _hmt || [];
 
 <?php echo $content; ?>
 
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js?v=0002"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/wechat.js"></script>
 
 </body>
