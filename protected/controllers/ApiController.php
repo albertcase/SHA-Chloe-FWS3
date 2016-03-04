@@ -14,7 +14,7 @@ class ApiController extends Controller
 
 	public function actionList()
 	{
-		$sql = "select id,name from same_type";
+		$sql = "select id,name from same_type order by id";
 		$typeList = Yii::app()->db->createCommand($sql)->queryAll();
 		$sql2 = "select tid,url from same_pic where tid in (select id from same_type)";
 		$picList = Yii::app()->db->createCommand($sql2)->queryAll();
