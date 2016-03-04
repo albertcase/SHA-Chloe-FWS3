@@ -744,6 +744,10 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 		margin: 1.6% 0 0 0;
 	}
 
+	.message{
+		top: 40%;
+	}
+
 }
 
 
@@ -756,6 +760,10 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 
 	.sliderCon .swiper-slide p{
 		margin: 1.6% 0 0 0;
+	}
+
+	.message{
+		top: 40%;
 	}
 
 }
