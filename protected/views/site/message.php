@@ -162,7 +162,7 @@
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
                             </dt>
                             <dd class="nobg">
-                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b5.jpg" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m5.png" width="100%" />
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b5.jpg?v=0001" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m5.png" width="100%" />
                             </dd>
                         </dl>
                     </li>
@@ -186,7 +186,7 @@
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
                             </dt>
                             <dd class="nobg">
-                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b6.jpg?v=001" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m6.png?v=001" width="100%" />
+                                <img data-src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/b6.jpg?v=002" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/mImgs/m6.png?v=001" width="100%" />
                             </dd>
                         </dl>
                     </li>
