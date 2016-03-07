@@ -45,6 +45,14 @@ var _hmt = _hmt || [];
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/main.js?v=0003"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/js/wechat_message.js?v=02"></script>
+<script type="text/javascript">
+    if(window.console){
+        var cons = console;
+        if(cons){
+            cons.log("%cChloe 2016秋冬系列 %chttp://chloefw2016.samesamechina.com", "color:#999;", "color:#ccc;");
+        }
+    }
+</script>
 
 </body>
 </html>

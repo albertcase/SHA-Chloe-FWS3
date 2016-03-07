@@ -23,6 +23,9 @@
     </div>
 
     <div class="message">
+        <div class="hands_animate">
+            <img src="/fws3/img/hands.png" width="100%">
+        </div>
         <div class="msReference"></div>
         <div class="message_con">
             <!-- <p>微信</p>
@@ -191,7 +194,8 @@
                         </dl>
                     </li>
 
-                    <!-- <li>
+                    <li>
+                        <a href="http://chloefw2016.samesamechina.com/">
                         <dl>
                             <dt>
                                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
@@ -201,15 +205,16 @@
                                 <h2>Chloé 2016 秋冬时装秀</h2>
                                 <dl>
                                     <dt>
-                                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/head.jpg" width="100%" />
+                                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/fws3/img/share.jpg" width="100%" />
                                     </dt>
                                     <dd>
-                                        chloewechat.samesamechina.com
+
                                     </dd>
                                 </dl>
                             </dd>
                         </dl>
-                    </li> -->
+                        </a>
+                    </li>
 
 
                 </ul>
@@ -512,6 +517,16 @@
                          .to($(".dialogList li").eq(10), 0.1, {opacity:1, onComplete:function(){
                                   document.getElementById('audio').play();
 
+                                  if(parseInt($(".dialogList").css("height")) > swiper.height - 32){
+                                       swiper.setWrapperTranslate(-(parseInt($(".dialogList").css("height")) - swiper.height + 32));
+                                  }
+
+                                  swiper.update();
+                                  $(".dialogList li").eq(11).css({"display":"inline-block"});
+                            }}, 22)
+                         .to($(".dialogList li").eq(11), 0.1, {opacity:1, onComplete:function(){
+                                  document.getElementById('audio').play();
+
                                   document.title="高圆圆";
                                   // hack在微信等webview中无法修改document.title的情况
                                   $iframe.on('load',function() {
@@ -525,7 +540,7 @@
                                   }
 
                                   swiper.update();
-                            }}, 22);
+                            }}, 24);
 
             }
 

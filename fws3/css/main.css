@@ -164,6 +164,7 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 	top: 0;
 	z-index: 100;
 	text-align: center;
+	background: #000;
 }
 
 
@@ -771,9 +772,35 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 
 
 
+.hands_animate{
+	width: 6%;
+	position: absolute;
+	right: 18%;
+	top: 30%;
+}
 
 
 
+.hands_animate {
+	-webkit-animation: hands 1.5s infinite ease-in-out;
+	-moz-animation: hands 1.5s infinite ease-in-out;
+	animation: hands 1.5s infinite ease-in-out;
+}
+
+
+
+@-webkit-keyframes hands {
+	0%,30% {opacity: 0;-webkit-transform: translate(-10px, 0);}
+	100% {opacity: 1;-webkit-transform: translate(30px, 0);}
+}
+@-moz-keyframes hands {
+	0%,30% {opacity: 0;-webkit-transform: translate(-10px, 0);}
+	100% {opacity: 1;-webkit-transform: translate(30px, 0);}
+}
+@keyframes hands {
+	0%,30% {opacity: 0;-webkit-transform: translate(-10px, 0);}
+	100% {opacity: 1;-webkit-transform: translate(30px, 0);}
+}
 
 
 
