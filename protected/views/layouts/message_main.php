@@ -13,7 +13,7 @@
 <meta name="Keywords" content="">
 <meta name="Description" content="...">
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/swiper.min.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/fws3/css/main.css?v=007" />
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/fws3/css/main.css?v=008" />
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jweixin.js"></script>
