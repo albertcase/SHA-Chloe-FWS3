@@ -476,7 +476,7 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 	display: inline-block;
 }
 
-.triangle-left {
+.triangle-left, .dialogList li a .triangle-left{
 	width:0;
 	height:0;
 	border-top:6px solid transparent;
