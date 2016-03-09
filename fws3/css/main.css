@@ -168,6 +168,11 @@ input,textarea { -webkit-user-select: auto; -moz-user-select: auto; text-transfo
 }
 
 
+.homepage#touchBox{
+	background: #000;
+}
+
+
 .logo{
 	width: 50%;
 	margin: 10% 0 0 0;
