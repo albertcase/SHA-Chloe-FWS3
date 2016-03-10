@@ -96,10 +96,13 @@ class WeixinController extends Controller
 
 	public function actionOauth($callback)
 	{
+		// $_SESSION['callback_url']=$callback;
+		// $wechatObj = new Weixin();
+		// $url=$wechatObj->getOauth();
+		// Header('Location:'.$url);
+		// Yii::app()->end();
 		$_SESSION['callback_url']=$callback;
-		$wechatObj = new Weixin();
-		$url=$wechatObj->getOauth();
-		Header('Location:'.$url);
+		Header('Location: http://chloewechat.samesamechina.com/weixin/oauth3');
 		Yii::app()->end();
 	}
 
@@ -111,6 +114,14 @@ class WeixinController extends Controller
 		Header('Location:'.$url);
 		Yii::app()->end();
 	}
+
+	public function actionOauth3($callback)
+	{
+		$_SESSION['callback_url']=$callback;
+		Header('Location: http://chloewechat.samesamechina.com/weixin/oauth3');
+		Yii::app()->end();
+	}
+
 	public function actionCallback(){
 		$code=isset($_GET['code'])&&$_GET['code']!='authdeny'?$_GET['code']:"";
 		if(!$code){

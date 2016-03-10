@@ -42,12 +42,11 @@ class ApiController extends Controller
 
 	public function actionStatus()
 	{
-		$wechatObj = new Weixin();
 		$openid = isset($_SESSION['openid'])?$_SESSION['openid']:'';
-		$status=$wechatObj->issubscribed($openid);
-		echo json_encode(array('code'=>$status));
+		echo file_get_contents("http://chloewechat.samesamechina.com/api/status2?openid=".$openid);
 		Yii::app()->end();
 	}
+
 
 	/**
 	 * This is the action to handle external exceptions.

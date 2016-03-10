@@ -8,10 +8,10 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-//		if(!isset($_SESSION['openid'])){
-//			Header('Location: /weixin/oauth?callback=/');
-//			Yii::app()->end();
-//		}
+		if(!isset($_SESSION['openid'])){
+			Header('Location: /weixin/oauth?callback=/');
+			Yii::app()->end();
+		}
 		$this->render('index');
 	}
 
