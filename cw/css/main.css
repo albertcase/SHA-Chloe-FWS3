@@ -48,6 +48,12 @@ abbr,acronym { border: 0;
 
 /* Custom CSS
  * --------------------------------------- */
+html, body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
 body{
 	font-family: arial,helvetica;
 	color: #333;
