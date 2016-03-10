@@ -51,7 +51,7 @@ function getAttention(){
 }
 
 
-//getAttention();
+getAttention();
 
 
 window.location.hash = '';
